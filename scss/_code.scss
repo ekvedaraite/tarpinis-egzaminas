@@ -1,0 +1,44 @@
+.code {
+    background: white;
+    height: 250px;
+    width: 100%;
+    font-family: 'lato';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.code {
+    display: flex;
+    width: 100%;
+}
+
+.img-code {
+    width: 50%;
+
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+}
+
+
+.text-code {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 20px;
+    padding: 0 40px;
+
+    .h1 {
+        margin: 0;
+        margin-bottom: 5px;
+        font-size: 1.5em;
+    }
+    .p {
+        margin: 0;
+        color: $darker-gray;
+    }
+}

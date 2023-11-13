@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+    header {
+        align-items: center;
+        padding: 15px;
+    }
+
+    #hero form {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #hero form input {
+        width: 90%;
+        margin-right: 0;
+    }
+
+    #hero a {
+        margin-top: 5px;
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .icons {
+        flex-direction: column;
+
+        div {
+            margin-bottom: 50px; 
+            i{
+                order: 1;
+            }
+            h1 {
+                order: 2;
+                margin-bottom: 50px;
+            }
+
+            p {
+                order: 3;
+                text-align: center;
+            }
+        }
+    }
+
+    .icons div h1,
+    .icons div p {
+        position: static;
+        transform: none;
+    }
+
+    .img {
+        animation: none !important;
+    }
+}

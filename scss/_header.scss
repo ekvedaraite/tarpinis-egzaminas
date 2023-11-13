@@ -1,0 +1,39 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    height: 40px;
+    margin: auto;
+    font-family: 'lato';
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    background: white;
+}
+
+.business {
+    color: black;
+    width: auto;
+    margin: 0;
+    position: static;
+    width: 70px;
+    margin-left: 50px;
+}
+
+.sign-in {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $blue;
+    height: 30px;
+    width: 70px;
+    border-radius: 3px;
+    margin-right: 50px;
+}
+
+.sign-in a{
+    text-decoration: none;
+    color: white;
+}

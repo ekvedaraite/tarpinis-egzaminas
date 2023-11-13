@@ -1,0 +1,35 @@
+.people {
+    font-family: 'lato';
+    background: $gray;
+    display: flex;
+    justify-content: space-around;
+  
+    .margaret,
+    .fred,
+    .sarah {
+        flex: 1;
+      text-align: center;
+      padding: 30px;
+  
+      img {
+        width: 100%;
+        max-width: 150px;
+        border-radius: 50%;
+      }
+
+      h3 {
+        font-size: 1em;
+      }
+
+      p {
+        font-size: 0.8em;
+        color: $darker-gray;
+      }
+  
+      h3,
+      p {
+        margin: 10px 0;
+      }
+    }
+  }
+  

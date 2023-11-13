@@ -1,0 +1,70 @@
+#hero {
+    position: relative;
+    background-color: #343a40;
+    background: url("../images/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: 'lato';
+    margin-top: 40px;
+}
+
+#hero h1 {
+    font-size: 2.3rem;
+    position: relative;
+    z-index: 1;
+    width: 68%;
+    margin: 0 auto;
+}
+
+#hero form {
+    position: relative;
+    z-index: 1;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    max-width: 500px;
+    padding-top: 5%;
+    margin: auto;
+}
+
+#hero form input {
+    flex: 1;
+    border-radius: 4px;
+    border: 0;
+    padding-left: 5px;
+    width: 70%;
+    line-height: 35px;
+    margin-right: 5px;
+}
+
+#hero a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: $blue;
+    height: 35px;
+    width: 90px;
+    border-radius: 3px;
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+#hero .overlay {
+    position: absolute;
+    background-color: rgba(33, 37, 41, 0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}

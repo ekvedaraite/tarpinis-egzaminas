@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap');
+@import 'variables';
+@import 'reset';
+@import 'header';
+@import 'hero';
+@import 'icons';
+@import 'phone';
+@import 'code';
+@import 'kid';
+@import 'saying';
+@import 'people';
+@import 'ending';
+@import 'footer';
+@import 'media';
+
+
+.img {
+  background: url(../images/gulp.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  animation: spin 5s infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg) scale(1);
+  }
+  50% {
+    transform: rotate(180deg) scale(2);
+  }
+
+  100% {
+    transform: rotate(360deg) scale(1)
+  }
+}
